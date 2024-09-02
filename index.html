@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paloma González</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/icons/icons8-estrella-16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="assets/icons/icons8-estrella-32.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="path/to/atropos.css" />
+</head>
+<body>
+<!-- NAVBAR --> 
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand"  href="#">Paloma González</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#hello" data-scroll-nav="0">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia" data-scroll-nav="1">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos" data-scroll-nav="2">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto" data-scroll-nav="3">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- HELLO -->
+    <div class="hello" id="hello" data-scroll-index="0">
+    <div class="container-md">
+        <div class="row justify-content-between">
+            <div class="texto col-12 col-lg-6">
+                <h1>Hola, soy <br><span id="type-it"> </span></h1>
+                <p>Una <span>Ingeniera Electrónica</span> con ganas de ver cómo funciona ese trasto que tienes detras de ti abandonado, arreglarlo y mejorarlo...</p> 
+                <p>Lo mejor de ser Ingeniera Electrónica es, sin duda, ese equilibrio entre picar código y trastear manualmente.</p>
+                <!-- TODO -->
+                <div class="row">
+                    <div class="laser-button col-3"><a target="_blank" href="assets/images/proximamente.png">CV</a></div>
+                
+                    <div class="laser-button col-3"><a href="#contacto">  Contacto</a></div>
+                </div>
+                
+            </div>
+            <div class="imagen col-12 col-lg-5">
+                <!-- <img src="assets/images/photo_.jpg" class="img-perfil img-fluid rounded border border-3" alt="Paloma"> -->
+                 <!-- main Atropos container (required), add your custom class here -->
+                <div class="atropos my-atropos w-full atropos-rotate-touch-scroll-y atropos-rotate-touch">
+                    <!-- scale container (required) -->
+                    <div class="atropos-scale">
+                        <!-- rotate container (required) -->
+                        <div class="atropos-rotate">
+                            <!-- inner container (required) -->
+                            <div class="atropos-inner">
+                                <img class="header" src="assets/images/photo_.jpg" alt="back">
+                                <!-- Element with negative offset will move in reverse direction, making it appear behind the scene -->
+                                <img src="assets/images/photo_1.png" data-atropos-offset="-1" />
+                                <!-- Element with no offset will not move -->
+                                <img src="assets/images/photo_2.png" data-atropos-offset="0" />
+                                <!-- Element with positive offset will move in same direction, making it appear in front of the scene -->
+                                <img src="assets/images/photo_3.png" data-atropos-offset="1" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!-- EXP -->
+    <div class="exp" id="experiencia" data-scroll-index="1">
+        <div class="container-md">
+            <div class="row justify-content-between">
+                <div class="tools col-12 col-xl-5">
+                    <div class="titulo-tools border border-2">
+                        <h2>HERRAMIENTAS</h2>
+                    </div>
+                    <div class="container caja-tools border border-3">
+                        <div class="row justify-content-evenly">
+                            <div class="box-content col-5 col-lg-3">
+                                <div class="box-tool d-flex bd-highlight">
+                                    <div class="p-2 w-50 bd-highlight"><img class="icon" src="assets/icons/vhdl_icon.svg" alt="Icono VHDL"></div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">VHDL</div>
+                                </div>
+                            </div>
+                            <div class="box-content col-5 col-lg-3">
+                                <div class="box-tool d-flex bd-highlight">
+                                    <div class="p-2 w-50 bd-highlight"><img class="icon" src="assets/icons/voltmeter_icon.svg" alt="Icono "></div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">Diseño Electrónico</div>
+                                </div>
+                            </div>
+                            <div class="box-content col-5 col-lg-3">
+                                <div class="box-tool d-flex bd-highlight">
+                                    <div class="p-2 w-50 bd-highlight"><img class="icon" src="assets/icons/c_icon.svg" alt="Icono "></div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">C</div>
+                                </div>
+                            </div>
+                            <div class="box-content col-5 col-lg-3">
+                                <div class="box-tool d-flex bd-highlight">
+                                    <div class="p-2 w-50 bd-highlight"><img class="icon" src="assets/icons/matlab_icon.svg" alt="Icono "></div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">Matlab<br>Simulink</div>
+                                </div>
+                            </div>
+                            <div class="box-content col-5 col-lg-3">
+                                <div class="box-tool d-flex bd-highlight">
+                                    <div class="p-2 w-50 bd-highlight"><img class="icon" src="assets/icons/renewable_energy_icon.svg" alt="Icono "></div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">Energía Renovable</div>
+                                </div>
+                            </div>
+                            <div class="box-content col-5 col-lg-3">
+                                <div class="box-tool d-flex bd-highlight">
+                                    <div class="p-2 w-50 bd-highlight"><img class="icon" src="assets/icons/altium-icon.png" alt="Icono "></div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">Altium Designer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vida col-12 col-xl-5">
+                    <div class="titulo-vida border border-2">
+                        <h2>EXPERIENCIA</h2>
+                    </div>
+                    <div class="container caja-vida border border-3">
+                        <div class="row justify-content-end align-items-center">
+                            <div class="circle col-1"></div>
+                            <div class="box-content col-8">
+                                <h4>Ingeniera Electrónica</h4>
+                                <p>Indra - 2021 (+3 años experiencia)</p>
+                                <p>Diseño y desarrollo hardware y firmware para radares secundarios.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-start align-items-center">
+                            <div class="box-content col-8">
+                                <h4>Grado en Ingeniería en Electrónica de Comunicaciones</h4>
+                                <p>Universidad de Alcalá (UAH) - 2013</p>
+                            </div>
+                            <div class="circle col-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- PROJECT -->
+    <div class="project" id="proyectos" data-scroll-index="2">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="titulo col-10">
+                    <h2>PROYECTOS</h2>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <!-- proyecto 1 -->
+                <div class="card col-12 col-lg-3">
+                    <img src="assets/images/proximamente.png" alt="">
+                    <div class="card-body">
+                        <h4>Teclado ergonomico partido</h4>
+                    </div>
+                </div>
+                <!-- proyecto 2 -->
+                <div class="card col-12 col-lg-3">
+                    <img src="assets/images/proximamente.png" alt="">
+                    <div class="card-body">
+                        <h4>Digital Comander Center</h4>
+                    </div>
+                </div>
+                <!-- proyecto 3 -->
+                <div class="card col-12 col-lg-3">
+                    <img src="assets/images/proximamente.png" alt="">
+                    <div class="card-body">
+                        <h4>Steam Deck</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- CONTACT -->
+    <div class="contact" id="contacto" data-scroll-index="3">
+        <div class="container-md">
+            <!-- QUOTE -->
+            <div class="row justify-content-center">
+                <div class="col-10 cita">
+                    <p>La gente normal cree que si algo no está roto, no hace falta arreglarlo. Los ingenieros creen que si algo no está roto es que le faltan funciones.</p>
+                    <p style="text-align: right; font-size: 80%;">Scott Adams</p>
+                </div>
+            </div>
+            <!-- CONTACT -->
+            <div class="row justify-content-center">
+                <div class="col-10 enlace">
+                    Linkedin | email
+                </div>
+            </div>
+            <!-- <3 -->
+            <div class="row align-items-end justify-content-center">
+                <div class="footer">
+                    <p>Make with <span>&#128156</span> by Paloma.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="libs/jquery-3.7.1/jquery-3.7.1/jquery.js"></script>
+    <script src="libs/typed/typed.js"></script>
+    <script src="libs/scrollIt.js-master/scrollIt.js-master/scrollIt.min.js"></script>
+    <script src="libs/atropos/atropos.min.js"></script>
+    <script>
+        const myAtropos = Atropos({
+            el: '.my-atropos',
+            // rest of parameters
+            isActive: true,
+            activeOffset: 40,
+            shadowScale: 1.05,
+        });
+    </script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
